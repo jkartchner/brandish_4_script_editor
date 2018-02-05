@@ -1,0 +1,13 @@
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\bin\Release\B4ScriptEdit.exe
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\bin\Release\B4ScriptEdit.pdb
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.AboutBox.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.ColorFormatTable.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.FindForm.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.Form1.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.HexForm.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.ProgressForm.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.Properties.Resources.resources
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.csproj.GenerateResource.Cache
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.exe
+C:\Users\Jake\Documents\Visual Studio 2008\Projects\B4ScriptEdit\B4ScriptEdit\obj\Release\B4ScriptEdit.pdb

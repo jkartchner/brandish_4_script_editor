@@ -1,0 +1,445 @@
+B4ScriptEdit	AboutBox.cs	/^namespace B4ScriptEdit$/;"	n
+AboutBox	AboutBox.cs	/^    partial class AboutBox : Form$/;"	c	namespace:B4ScriptEdit
+AboutBox	AboutBox.cs	/^        public AboutBox()$/;"	m	class:B4ScriptEdit.AboutBox
+AssemblyTitle	AboutBox.cs	/^        public string AssemblyTitle$/;"	p	class:B4ScriptEdit.AboutBox
+AssemblyVersion	AboutBox.cs	/^        public string AssemblyVersion$/;"	p	class:B4ScriptEdit.AboutBox
+AssemblyDescription	AboutBox.cs	/^        public string AssemblyDescription$/;"	p	class:B4ScriptEdit.AboutBox
+AssemblyProduct	AboutBox.cs	/^        public string AssemblyProduct$/;"	p	class:B4ScriptEdit.AboutBox
+AssemblyCopyright	AboutBox.cs	/^        public string AssemblyCopyright$/;"	p	class:B4ScriptEdit.AboutBox
+AssemblyCompany	AboutBox.cs	/^        public string AssemblyCompany$/;"	p	class:B4ScriptEdit.AboutBox
+B4ScriptEdit	AboutBox.Designer.cs	/^﻿namespace B4ScriptEdit$/;"	n
+AboutBox	AboutBox.Designer.cs	/^    partial class AboutBox$/;"	c	namespace:B4ScriptEdit
+components	AboutBox.Designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+Dispose	AboutBox.Designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:B4ScriptEdit.AboutBox
+InitializeComponent	AboutBox.Designer.cs	/^        private void InitializeComponent()$/;"	m	class:B4ScriptEdit.AboutBox	file:
+tableLayoutPanel	AboutBox.Designer.cs	/^        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+logoPictureBox	AboutBox.Designer.cs	/^        private System.Windows.Forms.PictureBox logoPictureBox;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+labelProductName	AboutBox.Designer.cs	/^        private System.Windows.Forms.Label labelProductName;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+labelCopyright	AboutBox.Designer.cs	/^        private System.Windows.Forms.Label labelCopyright;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+labelCompanyName	AboutBox.Designer.cs	/^        private System.Windows.Forms.Label labelCompanyName;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+textBoxDescription	AboutBox.Designer.cs	/^        private System.Windows.Forms.TextBox textBoxDescription;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+okButton	AboutBox.Designer.cs	/^        private System.Windows.Forms.Button okButton;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+labelVersion	AboutBox.Designer.cs	/^        private System.Windows.Forms.Label labelVersion;$/;"	f	class:B4ScriptEdit.AboutBox	file:
+B4ScriptEdit	AutoUpdate.cs	/^namespace B4ScriptEdit$/;"	n
+AutoUpdate	AutoUpdate.cs	/^    class AutoUpdate$/;"	c	namespace:B4ScriptEdit
+Exit_SMOOTH	AutoUpdate.cs	/^        private static int Exit_SMOOTH = 0;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+Exit_NOCLOSE	AutoUpdate.cs	/^        private static int Exit_NOCLOSE = 1;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+Exit_NODOWNLOAD	AutoUpdate.cs	/^        private static int Exit_NODOWNLOAD = 2;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+m_patchName	AutoUpdate.cs	/^        string m_patchName;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+m_prevPatchName	AutoUpdate.cs	/^        string m_prevPatchName;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+m_uri	AutoUpdate.cs	/^        string m_uri;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+client	AutoUpdate.cs	/^        WebClient client;$/;"	f	class:B4ScriptEdit.AutoUpdate	file:
+AutoUpdate	AutoUpdate.cs	/^        public AutoUpdate(string uri, string patchName, string prevPatchName)$/;"	m	class:B4ScriptEdit.AutoUpdate
+Update	AutoUpdate.cs	/^        public int Update()$/;"	m	class:B4ScriptEdit.AutoUpdate
+B4ScriptEdit	ColorFormatTable.cs	/^namespace B4ScriptEdit$/;"	n
+ColorFormatTable	ColorFormatTable.cs	/^    public partial class ColorFormatTable : Form$/;"	c	namespace:B4ScriptEdit
+myParent	ColorFormatTable.cs	/^        Form1 myParent = null;$/;"	f	class:B4ScriptEdit.ColorFormatTable	file:
+ColorFormatTable	ColorFormatTable.cs	/^        public ColorFormatTable(Form1 myParent)$/;"	m	class:B4ScriptEdit.ColorFormatTable
+ColorFormatTable_FormClosing	ColorFormatTable.cs	/^        private void ColorFormatTable_FormClosing(object sender, FormClosingEventArgs e)$/;"	m	class:B4ScriptEdit.ColorFormatTable	file:
+HandleParentRedraw	ColorFormatTable.cs	/^        public void HandleParentRedraw()$/;"	m	class:B4ScriptEdit.ColorFormatTable
+B4ScriptEdit	ColorFormatTable.Designer.cs	/^﻿namespace B4ScriptEdit$/;"	n
+ColorFormatTable	ColorFormatTable.Designer.cs	/^    partial class ColorFormatTable$/;"	c	namespace:B4ScriptEdit
+components	ColorFormatTable.Designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:B4ScriptEdit.ColorFormatTable	file:
+Dispose	ColorFormatTable.Designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:B4ScriptEdit.ColorFormatTable
+InitializeComponent	ColorFormatTable.Designer.cs	/^        private void InitializeComponent()$/;"	m	class:B4ScriptEdit.ColorFormatTable	file:
+pictureBox1	ColorFormatTable.Designer.cs	/^        private System.Windows.Forms.PictureBox pictureBox1;$/;"	f	class:B4ScriptEdit.ColorFormatTable	file:
+B4ScriptEdit	EProcess.cs	/^namespace B4ScriptEdit$/;"	n
+EProcess	EProcess.cs	/^    class EProcess$/;"	c	namespace:B4ScriptEdit
+p	EProcess.cs	/^        Process p;$/;"	f	class:B4ScriptEdit.EProcess	file:
+processName	EProcess.cs	/^        string processName;$/;"	f	class:B4ScriptEdit.EProcess	file:
+EProcess	EProcess.cs	/^        public EProcess(string procName)$/;"	m	class:B4ScriptEdit.EProcess
+LaunchProcess	EProcess.cs	/^        private void LaunchProcess()$/;"	m	class:B4ScriptEdit.EProcess	file:
+B4ScriptEdit	FindForm.cs	/^namespace B4ScriptEdit$/;"	n
+FindForm	FindForm.cs	/^    public partial class FindForm : Form$/;"	c	namespace:B4ScriptEdit
+myParent	FindForm.cs	/^        private Form1 myParent = null;$/;"	f	class:B4ScriptEdit.FindForm	file:
+FindForm	FindForm.cs	/^        public FindForm(Form1 myParent)$/;"	m	class:B4ScriptEdit.FindForm
+button1_Click	FindForm.cs	/^        private void button1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.FindForm	file:
+FindClose	FindForm.cs	/^        public void FindClose()$/;"	m	class:B4ScriptEdit.FindForm
+FindForm_KeyPress	FindForm.cs	/^        private void FindForm_KeyPress(object sender, KeyPressEventArgs e)$/;"	m	class:B4ScriptEdit.FindForm	file:
+FindForm_KeyDown	FindForm.cs	/^        private void FindForm_KeyDown(object sender, KeyEventArgs e)$/;"	m	class:B4ScriptEdit.FindForm	file:
+textBox1_KeyDown	FindForm.cs	/^        private void textBox1_KeyDown(object sender, KeyEventArgs e)$/;"	m	class:B4ScriptEdit.FindForm	file:
+B4ScriptEdit	FindForm.Designer.cs	/^﻿namespace B4ScriptEdit$/;"	n
+FindForm	FindForm.Designer.cs	/^    partial class FindForm$/;"	c	namespace:B4ScriptEdit
+components	FindForm.Designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:B4ScriptEdit.FindForm	file:
+Dispose	FindForm.Designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:B4ScriptEdit.FindForm
+InitializeComponent	FindForm.Designer.cs	/^        private void InitializeComponent()$/;"	m	class:B4ScriptEdit.FindForm	file:
+textBox1	FindForm.Designer.cs	/^        private System.Windows.Forms.TextBox textBox1;$/;"	f	class:B4ScriptEdit.FindForm	file:
+label1	FindForm.Designer.cs	/^        private System.Windows.Forms.Label label1;$/;"	f	class:B4ScriptEdit.FindForm	file:
+button1	FindForm.Designer.cs	/^        private System.Windows.Forms.Button button1;$/;"	f	class:B4ScriptEdit.FindForm	file:
+B4ScriptEdit	Form1.cs	/^namespace B4ScriptEdit$/;"	n
+Form1	Form1.cs	/^    public partial class Form1 : Form$/;"	c	namespace:B4ScriptEdit
+m_FileName	Form1.cs	/^        private string m_FileName;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_LibFileName	Form1.cs	/^        private string m_LibFileName;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_TemporaryFolderPath	Form1.cs	/^        private string m_TemporaryFolderPath;$/;"	f	class:B4ScriptEdit.Form1	file:
+binRead	Form1.cs	/^        private BinaryReader binRead;$/;"	f	class:B4ScriptEdit.Form1	file:
+binWrite	Form1.cs	/^        private BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_enc	Form1.cs	/^        private Encoding m_enc;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_isLib	Form1.cs	/^        private bool m_isLib = false;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_is_SY	Form1.cs	/^        private bool m_is_SY = false;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_isParsed	Form1.cs	/^        private bool m_isParsed = false;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_isSplit	Form1.cs	/^        private bool m_isSplit = false;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_isSaved	Form1.cs	/^        private bool m_isSaved = true;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_isLoadedChanged	Form1.cs	/^        private bool m_isLoadedChanged = false;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_isHexTable	Form1.cs	/^        public bool m_isHexTable = false;$/;"	f	class:B4ScriptEdit.Form1
+m_isColorTable	Form1.cs	/^        public bool m_isColorTable = false;$/;"	f	class:B4ScriptEdit.Form1
+m_isIntelliText	Form1.cs	/^        private bool m_isIntelliText = true;$/;"	f	class:B4ScriptEdit.Form1	file:
+m_ReadBuffer	Form1.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.Form1	file:
+hexForm	Form1.cs	/^        private HexForm hexForm;$/;"	f	class:B4ScriptEdit.Form1	file:
+findForm	Form1.cs	/^        private FindForm findForm;$/;"	f	class:B4ScriptEdit.Form1	file:
+colorForm	Form1.cs	/^        private ColorFormatTable colorForm;$/;"	f	class:B4ScriptEdit.Form1	file:
+Form1	Form1.cs	/^        public Form1()$/;"	m	class:B4ScriptEdit.Form1
+aUpdate	Form1.cs	/^        private void aUpdate()$/;"	m	class:B4ScriptEdit.Form1	file:
+AddNewLine	Form1.cs	/^        private void AddNewLine()$/;"	m	class:B4ScriptEdit.Form1	file:
+AddDialogNewLine	Form1.cs	/^        private void AddDialogNewLine()$/;"	m	class:B4ScriptEdit.Form1	file:
+ActivateIntelliText	Form1.cs	/^        private void ActivateIntelliText()$/;"	m	class:B4ScriptEdit.Form1	file:
+FindString	Form1.cs	/^        public void FindString(string sToFind)$/;"	m	class:B4ScriptEdit.Form1
+STRFormatClip	Form1.cs	/^        private string STRFormatClip(string item)$/;"	m	class:B4ScriptEdit.Form1	file:
+OpenDecompression	Form1.cs	/^        private void OpenDecompression()$/;"	m	class:B4ScriptEdit.Form1	file:
+IntelliText	Form1.cs	/^        private void IntelliText()$/;"	m	class:B4ScriptEdit.Form1	file:
+SaveFile	Form1.cs	/^        private void SaveFile()$/;"	m	class:B4ScriptEdit.Form1	file:
+CloseFile	Form1.cs	/^        private void CloseFile()$/;"	m	class:B4ScriptEdit.Form1	file:
+PrepFileName	Form1.cs	/^        private void PrepFileName()$/;"	m	class:B4ScriptEdit.Form1	file:
+CalcCenter	Form1.cs	/^        private void CalcCenter()$/;"	m	class:B4ScriptEdit.Form1	file:
+CalcCenter	Form1.cs	/^        private void CalcCenter(string SafeFileName)$/;"	m	class:B4ScriptEdit.Form1	file:
+Form1_Resize	Form1.cs	/^        private void Form1_Resize(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+Form1_LocationChanged	Form1.cs	/^        private void Form1_LocationChanged(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+exitToolStripMenuItem_Click	Form1.cs	/^        private void exitToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+Form1_FormClosing	Form1.cs	/^        private void Form1_FormClosing(object sender, FormClosingEventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton1_Click	Form1.cs	/^        private void toolStripButton1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+wordWrapToolStripMenuItem_Click	Form1.cs	/^        private void wordWrapToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+copyToolStripMenuItem_Click	Form1.cs	/^        private void copyToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+pasteToolStripMenuItem_Click	Form1.cs	/^        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+clearToolStripMenuItem_Click	Form1.cs	/^        private void clearToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+cutToolStripMenuItem_Click	Form1.cs	/^        private void cutToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+cutToolStripMenuItem1_Click	Form1.cs	/^        private void cutToolStripMenuItem1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+copyToolStripMenuItem1_Click	Form1.cs	/^        private void copyToolStripMenuItem1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+pastseToolStripMenuItem_Click	Form1.cs	/^        private void pastseToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+clearToolStripMenuItem1_Click	Form1.cs	/^        private void clearToolStripMenuItem1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripComboBox1_TextChanged	Form1.cs	/^        private void toolStripComboBox1_TextChanged(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+openToolStripMenuItem_Click	Form1.cs	/^        private void openToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+saveToolStripMenuItem_Click	Form1.cs	/^        private void saveToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+textBox1_TextChanged	Form1.cs	/^        private void textBox1_TextChanged(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+closeToolStripMenuItem_Click	Form1.cs	/^        private void closeToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+fontToolStripMenuItem_Click	Form1.cs	/^        private void fontToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton2_CheckedChanged	Form1.cs	/^        private void toolStripButton2_CheckedChanged(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+undoToolStripMenuItem_Click	Form1.cs	/^        private void undoToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+redoToolStripMenuItem_Click	Form1.cs	/^        private void redoToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+selectAllToolStripMenuItem_Click	Form1.cs	/^        private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton3_Click	Form1.cs	/^        private void toolStripButton3_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton4_Click	Form1.cs	/^        private void toolStripButton4_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton5_Click	Form1.cs	/^        private void toolStripButton5_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton6_Click	Form1.cs	/^        private void toolStripButton6_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton2_Click	Form1.cs	/^        private void toolStripButton2_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+ChangeWordWrapped	Form1.cs	/^        private void ChangeWordWrapped()$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton7_Click	Form1.cs	/^        private void toolStripButton7_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton8_Click	Form1.cs	/^        private void toolStripButton8_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton9_Click	Form1.cs	/^        private void toolStripButton9_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton10_Click	Form1.cs	/^        private void toolStripButton10_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+aboutToolStripMenuItem_Click	Form1.cs	/^        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton11_Click	Form1.cs	/^        private void toolStripButton11_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+wordWrapToolStripMenuItem1_Click	Form1.cs	/^        private void wordWrapToolStripMenuItem1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+fontToolStripMenuItem1_Click	Form1.cs	/^        private void fontToolStripMenuItem1_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+hexTableToolStripMenuItem_Click	Form1.cs	/^        private void hexTableToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+textBox1_SelectionChanged	Form1.cs	/^        private void textBox1_SelectionChanged(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton12_Click	Form1.cs	/^        private void toolStripButton12_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+viewToolStripMenuItem_Click	Form1.cs	/^        private void viewToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+findToolStripMenuItem_Click	Form1.cs	/^        private void findToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+intelliTextToolStripMenuItem_Click	Form1.cs	/^        private void intelliTextToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton13_Click	Form1.cs	/^        private void toolStripButton13_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+newLineToolStripMenuItem_Click	Form1.cs	/^        private void newLineToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton14_Click	Form1.cs	/^        private void toolStripButton14_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+toolStripButton15_Click	Form1.cs	/^        private void toolStripButton15_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+newDialogLineToolStripMenuItem_Click	Form1.cs	/^        private void newDialogLineToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+statusBarToolStripMenuItem_Click	Form1.cs	/^        private void statusBarToolStripMenuItem_Click(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.Form1	file:
+B4ScriptEdit	Form1.Designer.cs	/^﻿namespace B4ScriptEdit$/;"	n
+Form1	Form1.Designer.cs	/^    partial class Form1$/;"	c	namespace:B4ScriptEdit
+components	Form1.Designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:B4ScriptEdit.Form1	file:
+Dispose	Form1.Designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:B4ScriptEdit.Form1
+InitializeComponent	Form1.Designer.cs	/^        private void InitializeComponent()$/;"	m	class:B4ScriptEdit.Form1	file:
+menuStrip1	Form1.Designer.cs	/^        private System.Windows.Forms.MenuStrip menuStrip1;$/;"	f	class:B4ScriptEdit.Form1	file:
+fileToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+editToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStrip1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStrip toolStrip1;$/;"	f	class:B4ScriptEdit.Form1	file:
+dlg	Form1.Designer.cs	/^        private System.Windows.Forms.OpenFileDialog dlg;$/;"	f	class:B4ScriptEdit.Form1	file:
+openToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+exitToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton1;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolTip	Form1.Designer.cs	/^        private System.Windows.Forms.ToolTip toolTip;$/;"	f	class:B4ScriptEdit.Form1	file:
+viewToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+textBox1	Form1.Designer.cs	/^        private System.Windows.Forms.RichTextBox textBox1;$/;"	f	class:B4ScriptEdit.Form1	file:
+copyToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+pasteToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+clearToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+cutToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+contextMenuStrip1	Form1.Designer.cs	/^        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;$/;"	f	class:B4ScriptEdit.Form1	file:
+cutToolStripMenuItem1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem1;$/;"	f	class:B4ScriptEdit.Form1	file:
+copyToolStripMenuItem1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem1;$/;"	f	class:B4ScriptEdit.Form1	file:
+pastseToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem pastseToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+clearToolStripMenuItem1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem1;$/;"	f	class:B4ScriptEdit.Form1	file:
+dlg1	Form1.Designer.cs	/^        private System.Windows.Forms.OpenFileDialog dlg1;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripComboBox1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;$/;"	f	class:B4ScriptEdit.Form1	file:
+saveToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+closeToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton2	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton2;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripSeparator1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripSeparator2	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;$/;"	f	class:B4ScriptEdit.Form1	file:
+fontDialog	Form1.Designer.cs	/^        private System.Windows.Forms.FontDialog fontDialog;$/;"	f	class:B4ScriptEdit.Form1	file:
+undoToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem undoToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+redoToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem redoToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+selectAllToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton3	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton3;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton4	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton4;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton5	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton5;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton6	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton6;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton7	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton7;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton8	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton8;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton9	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton9;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton10	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton10;$/;"	f	class:B4ScriptEdit.Form1	file:
+dlgSave	Form1.Designer.cs	/^        private System.Windows.Forms.SaveFileDialog dlgSave;$/;"	f	class:B4ScriptEdit.Form1	file:
+infoToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+aboutToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton11	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton11;$/;"	f	class:B4ScriptEdit.Form1	file:
+formatToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem formatToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+wordWrapToolStripMenuItem1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem wordWrapToolStripMenuItem1;$/;"	f	class:B4ScriptEdit.Form1	file:
+fontToolStripMenuItem1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem fontToolStripMenuItem1;$/;"	f	class:B4ScriptEdit.Form1	file:
+hexTableToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem hexTableToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton12	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton12;$/;"	f	class:B4ScriptEdit.Form1	file:
+findToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem findToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+intelliTextToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem intelliTextToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton13	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton13;$/;"	f	class:B4ScriptEdit.Form1	file:
+insertToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem insertToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+newLineToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem newLineToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripSeparator3	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton14	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton14;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripButton15	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripButton toolStripButton15;$/;"	f	class:B4ScriptEdit.Form1	file:
+newDialogLineToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem newDialogLineToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+statusStrip1	Form1.Designer.cs	/^        private System.Windows.Forms.StatusStrip statusStrip1;$/;"	f	class:B4ScriptEdit.Form1	file:
+toolStripStatusLabel1	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;$/;"	f	class:B4ScriptEdit.Form1	file:
+statusBarToolStripMenuItem	Form1.Designer.cs	/^        private System.Windows.Forms.ToolStripMenuItem statusBarToolStripMenuItem;$/;"	f	class:B4ScriptEdit.Form1	file:
+B4ScriptEdit	HexForm.cs	/^namespace B4ScriptEdit$/;"	n
+HexForm	HexForm.cs	/^    public partial class HexForm : Form$/;"	c	namespace:B4ScriptEdit
+hexTable	HexForm.cs	/^        private byte[] hexTable;$/;"	f	class:B4ScriptEdit.HexForm	file:
+myParent	HexForm.cs	/^        Form1 myParent = null;$/;"	f	class:B4ScriptEdit.HexForm	file:
+HexForm	HexForm.cs	/^        public HexForm(Form1 myParent)$/;"	m	class:B4ScriptEdit.HexForm
+HexConverter	HexForm.cs	/^        public void HexConverter(byte[] hexSource)$/;"	m	class:B4ScriptEdit.HexForm
+HexForm_FormClosing	HexForm.cs	/^        private void HexForm_FormClosing(object sender, FormClosingEventArgs e)$/;"	m	class:B4ScriptEdit.HexForm	file:
+HandleParentRedraw	HexForm.cs	/^        public void HandleParentRedraw()$/;"	m	class:B4ScriptEdit.HexForm
+B4ScriptEdit	HexForm.Designer.cs	/^﻿namespace B4ScriptEdit$/;"	n
+HexForm	HexForm.Designer.cs	/^    partial class HexForm$/;"	c	namespace:B4ScriptEdit
+components	HexForm.Designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:B4ScriptEdit.HexForm	file:
+Dispose	HexForm.Designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:B4ScriptEdit.HexForm
+InitializeComponent	HexForm.Designer.cs	/^        private void InitializeComponent()$/;"	m	class:B4ScriptEdit.HexForm	file:
+label1	HexForm.Designer.cs	/^        private System.Windows.Forms.Label label1;$/;"	f	class:B4ScriptEdit.HexForm	file:
+label2	HexForm.Designer.cs	/^        private System.Windows.Forms.Label label2;$/;"	f	class:B4ScriptEdit.HexForm	file:
+label3	HexForm.Designer.cs	/^        private System.Windows.Forms.Label label3;$/;"	f	class:B4ScriptEdit.HexForm	file:
+label4	HexForm.Designer.cs	/^        private System.Windows.Forms.Label label4;$/;"	f	class:B4ScriptEdit.HexForm	file:
+label5	HexForm.Designer.cs	/^        private System.Windows.Forms.Label label5;$/;"	f	class:B4ScriptEdit.HexForm	file:
+B4ScriptEdit	ItemsParser.cs	/^namespace B4ScriptEdit$/;"	n
+ItemsParser	ItemsParser.cs	/^    class ItemsParser$/;"	c	namespace:B4ScriptEdit
+m_FileStream	ItemsParser.cs	/^        private FileStream m_FileStream;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_FileInfo	ItemsParser.cs	/^        private FileInfo m_FileInfo;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_oFileInfo	ItemsParser.cs	/^        private FileInfo m_oFileInfo;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_oFileStream	ItemsParser.cs	/^        private FileStream m_oFileStream;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_DataSize	ItemsParser.cs	/^        private ulong m_DataSize;           \/\/ full size of file$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_ReadBuffer	ItemsParser.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_WriteBuffer	ItemsParser.cs	/^        private byte[] m_WriteBuffer;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_ReadPos	ItemsParser.cs	/^        private int m_ReadPos;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_isOverriden	ItemsParser.cs	/^        public bool m_isOverriden = false;$/;"	f	class:B4ScriptEdit.ItemsParser
+binRead	ItemsParser.cs	/^        BinaryReader binRead;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+binWrite	ItemsParser.cs	/^        BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_CurrentString	ItemsParser.cs	/^        private byte[] m_CurrentString;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_Offset	ItemsParser.cs	/^        private int[] m_Offset;            \/\/ this byte array corresponds exactly to the strings as they are read$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_FirstOffset	ItemsParser.cs	/^        private ushort m_FirstOffset;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_CurrentOffset	ItemsParser.cs	/^        private ushort m_CurrentOffset;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_ModelOffset	ItemsParser.cs	/^        private ushort m_ModelOffset;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+m_FinalOffset	ItemsParser.cs	/^        private ushort m_FinalOffset;$/;"	f	class:B4ScriptEdit.ItemsParser	file:
+ItemsParser	ItemsParser.cs	/^        public ItemsParser()$/;"	m	class:B4ScriptEdit.ItemsParser
+Initialize	ItemsParser.cs	/^        public void Initialize(string inFilePath, string outFilePath)$/;"	m	class:B4ScriptEdit.ItemsParser
+ParseItems	ItemsParser.cs	/^        private void ParseItems()$/;"	m	class:B4ScriptEdit.ItemsParser	file:
+FindSporadicNode	ItemsParser.cs	/^        private void FindSporadicNode()$/;"	m	class:B4ScriptEdit.ItemsParser	file:
+B4ScriptEdit	ItemsSplitter.cs	/^namespace B4ScriptEdit$/;"	n
+ItemsSplitter	ItemsSplitter.cs	/^    class ItemsSplitter$/;"	c	namespace:B4ScriptEdit
+m_FileStream	ItemsSplitter.cs	/^        private FileStream m_FileStream;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_FileInfo	ItemsSplitter.cs	/^        private FileInfo m_FileInfo;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_oFileInfo	ItemsSplitter.cs	/^        private FileInfo m_oFileInfo;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_oFileStream	ItemsSplitter.cs	/^        private FileStream m_oFileStream;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_DataSize	ItemsSplitter.cs	/^        private ulong m_DataSize;           \/\/ full size of file$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_ReadBuffer	ItemsSplitter.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_WriteBuffer	ItemsSplitter.cs	/^        private byte[] m_WriteBuffer;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_isOverriden	ItemsSplitter.cs	/^        public bool m_isOverriden = false;$/;"	f	class:B4ScriptEdit.ItemsSplitter
+binRead	ItemsSplitter.cs	/^        BinaryReader binRead;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+binWrite	ItemsSplitter.cs	/^        BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_CurrentString	ItemsSplitter.cs	/^        private byte[] m_CurrentString;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_Offset	ItemsSplitter.cs	/^        private int[] m_Offset;            \/\/ this byte array corresponds exactly to the strings as they are read$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+m_DataOffset	ItemsSplitter.cs	/^        private ushort m_DataOffset;$/;"	f	class:B4ScriptEdit.ItemsSplitter	file:
+ItemsSplitter	ItemsSplitter.cs	/^        public ItemsSplitter()$/;"	m	class:B4ScriptEdit.ItemsSplitter
+Initialize	ItemsSplitter.cs	/^        public void Initialize(string inFilePath, string outFilePath)$/;"	m	class:B4ScriptEdit.ItemsSplitter
+Split	ItemsSplitter.cs	/^        public void Split()$/;"	m	class:B4ScriptEdit.ItemsSplitter
+Join	ItemsSplitter.cs	/^        public void Join(string origFileName)$/;"	m	class:B4ScriptEdit.ItemsSplitter
+B4ScriptEdit	Package.cs	/^namespace B4ScriptEdit$/;"	n
+Package	Package.cs	/^    class Package$/;"	c	namespace:B4ScriptEdit
+m_LibFilePath	Package.cs	/^        private string m_LibFilePath;$/;"	f	class:B4ScriptEdit.Package	file:
+m_SafeOutName	Package.cs	/^        private string m_SafeOutName;$/;"	f	class:B4ScriptEdit.Package	file:
+m_FileInPath	Package.cs	/^        private string m_FileInPath;$/;"	f	class:B4ScriptEdit.Package	file:
+m_FileOutPath	Package.cs	/^        private string m_FileOutPath;$/;"	f	class:B4ScriptEdit.Package	file:
+m_TempFolderPath	Package.cs	/^        private string m_TempFolderPath;$/;"	f	class:B4ScriptEdit.Package	file:
+TempFolderPath	Package.cs	/^        public string TempFolderPath$/;"	p	class:B4ScriptEdit.Package
+m_FileStream	Package.cs	/^        private FileStream m_FileStream;$/;"	f	class:B4ScriptEdit.Package	file:
+m_FileInfo	Package.cs	/^        private FileInfo m_FileInfo;$/;"	f	class:B4ScriptEdit.Package	file:
+m_oFileInfo	Package.cs	/^        private FileInfo m_oFileInfo;$/;"	f	class:B4ScriptEdit.Package	file:
+m_oFileStream	Package.cs	/^        private FileStream m_oFileStream;$/;"	f	class:B4ScriptEdit.Package	file:
+m_DataSize	Package.cs	/^        private ulong m_DataSize;$/;"	f	class:B4ScriptEdit.Package	file:
+m_ReadBuffer	Package.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.Package	file:
+m_WriteBuffer	Package.cs	/^        private byte[] m_WriteBuffer;$/;"	f	class:B4ScriptEdit.Package	file:
+m_NoFiles	Package.cs	/^        private int m_NoFiles;$/;"	f	class:B4ScriptEdit.Package	file:
+m_ReadPos	Package.cs	/^        private int m_ReadPos;$/;"	f	class:B4ScriptEdit.Package	file:
+binRead	Package.cs	/^        BinaryReader binRead;$/;"	f	class:B4ScriptEdit.Package	file:
+binWrite	Package.cs	/^        BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.Package	file:
+m_NameBuffer	Package.cs	/^        private string[] m_NameBuffer;$/;"	f	class:B4ScriptEdit.Package	file:
+m_OffsetBuffer	Package.cs	/^        private uint[] m_OffsetBuffer;$/;"	f	class:B4ScriptEdit.Package	file:
+m_SizeBuffer	Package.cs	/^        private uint[] m_SizeBuffer;$/;"	f	class:B4ScriptEdit.Package	file:
+Package	Package.cs	/^        public Package()$/;"	m	class:B4ScriptEdit.Package
+InitializeDump	Package.cs	/^        public void InitializeDump(string LibPath, string HDRPath)$/;"	m	class:B4ScriptEdit.Package
+InitializeRepackage	Package.cs	/^        public void InitializeRepackage(string inFilePath, string libFilePath, string outFilePath, string outFileSafe)$/;"	m	class:B4ScriptEdit.Package
+VIPackage	Package.cs	/^        public bool VIPackage()$/;"	m	class:B4ScriptEdit.Package
+VIDump	Package.cs	/^        public void VIDump()$/;"	m	class:B4ScriptEdit.Package
+DumpLibFiles	Package.cs	/^        private void DumpLibFiles()$/;"	m	class:B4ScriptEdit.Package	file:
+ReadHDR	Package.cs	/^        private void ReadHDR()$/;"	m	class:B4ScriptEdit.Package	file:
+ReadinHDR	Package.cs	/^        private void ReadinHDR()$/;"	m	class:B4ScriptEdit.Package	file:
+ReadLibFiles	Package.cs	/^        private void ReadLibFiles()$/;"	m	class:B4ScriptEdit.Package	file:
+WriteLibFiles	Package.cs	/^        private void WriteLibFiles()$/;"	m	class:B4ScriptEdit.Package	file:
+B4ScriptEdit	Parser.cs	/^namespace B4ScriptEdit$/;"	n
+Parser	Parser.cs	/^    class Parser$/;"	c	namespace:B4ScriptEdit
+m_FileStream	Parser.cs	/^        private FileStream m_FileStream;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_FileInfo	Parser.cs	/^        private FileInfo m_FileInfo;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_oFileInfo	Parser.cs	/^        private FileInfo m_oFileInfo;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_oFileStream	Parser.cs	/^        private FileStream m_oFileStream;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_DataSize	Parser.cs	/^        private ulong m_DataSize;           \/\/ full size of file$/;"	f	class:B4ScriptEdit.Parser	file:
+m_ReadBuffer	Parser.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_WriteBuffer	Parser.cs	/^        private byte[] m_WriteBuffer;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_ReadPos	Parser.cs	/^        private int m_ReadPos;                  $/;"	f	class:B4ScriptEdit.Parser	file:
+m_isOverriden	Parser.cs	/^        public bool m_isOverriden = false;$/;"	f	class:B4ScriptEdit.Parser
+binRead	Parser.cs	/^        BinaryReader binRead;$/;"	f	class:B4ScriptEdit.Parser	file:
+binWrite	Parser.cs	/^        BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_CurrentString	Parser.cs	/^        private byte[] m_CurrentString;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_Offset	Parser.cs	/^        private int[] m_Offset;            \/\/ this byte array corresponds exactly to the strings as they are read$/;"	f	class:B4ScriptEdit.Parser	file:
+m_CurrentOffset	Parser.cs	/^        private ushort m_CurrentOffset;$/;"	f	class:B4ScriptEdit.Parser	file:
+m_TotalStrings	Parser.cs	/^        private int m_TotalStrings;$/;"	f	class:B4ScriptEdit.Parser	file:
+j	Parser.cs	/^        private int j = 0;$/;"	f	class:B4ScriptEdit.Parser	file:
+Parser	Parser.cs	/^        public Parser()$/;"	m	class:B4ScriptEdit.Parser
+Initialize	Parser.cs	/^        public void Initialize(string inFilePath, string outFilePath)$/;"	m	class:B4ScriptEdit.Parser
+TryParse	Parser.cs	/^        public bool TryParse()$/;"	m	class:B4ScriptEdit.Parser
+CloseOut	Parser.cs	/^        public void CloseOut()$/;"	m	class:B4ScriptEdit.Parser
+SYParse	Parser.cs	/^        public bool SYParse()               \/\/ not at all done very smart$/;"	m	class:B4ScriptEdit.Parser
+m_StringBuffer	Parser.cs	/^        private byte[,] m_StringBuffer;$/;"	f	class:B4ScriptEdit.Parser	file:
+SYRePack	Parser.cs	/^        public bool SYRePack()$/;"	m	class:B4ScriptEdit.Parser
+Parse	Parser.cs	/^        public bool Parse()$/;"	m	class:B4ScriptEdit.Parser
+RePack	Parser.cs	/^        public bool RePack()$/;"	m	class:B4ScriptEdit.Parser
+B4ScriptEdit	Program.cs	/^namespace B4ScriptEdit$/;"	n
+Program	Program.cs	/^    static class Program$/;"	c	namespace:B4ScriptEdit
+Main	Program.cs	/^        static void Main()$/;"	m	class:B4ScriptEdit.Program	file:
+B4ScriptEdit	ProgressForm.cs	/^namespace B4ScriptEdit$/;"	n
+ProgressForm	ProgressForm.cs	/^    public partial class ProgressForm : Form$/;"	c	namespace:B4ScriptEdit
+ProgressForm	ProgressForm.cs	/^        public ProgressForm()$/;"	m	class:B4ScriptEdit.ProgressForm
+panel1_Paint	ProgressForm.cs	/^        private void panel1_Paint(object sender, PaintEventArgs e)$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+ProgressTimer_Tick	ProgressForm.cs	/^        private void ProgressTimer_Tick(object sender, EventArgs e)$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+UpdateStatusp	ProgressForm.cs	/^        static public void UpdateStatusp(string StatusUpdate)$/;"	m	class:B4ScriptEdit.ProgressForm
+UpdateStatusp	ProgressForm.cs	/^        static public void UpdateStatusp(bool isAdding, int buffer)$/;"	m	class:B4ScriptEdit.ProgressForm
+DedicateNewIncrement	ProgressForm.cs	/^        private void DedicateNewIncrement()$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+UpdateStatus	ProgressForm.cs	/^        private void UpdateStatus()$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+EstablishStatus	ProgressForm.cs	/^        private void EstablishStatus()$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+ShowProgressForm	ProgressForm.cs	/^        static public void ShowProgressForm(int NumUpdates)$/;"	m	class:B4ScriptEdit.ProgressForm
+ShowProgressForm	ProgressForm.cs	/^        static public void ShowProgressForm(int NumUpdates, string FormLabel)$/;"	m	class:B4ScriptEdit.ProgressForm
+ShowForm	ProgressForm.cs	/^        static private void ShowForm()$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+CloseProgForm	ProgressForm.cs	/^        static public void CloseProgForm()$/;"	m	class:B4ScriptEdit.ProgressForm
+m_bClosing	ProgressForm.cs	/^        static private bool m_bClosing;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+TIMER_INTERVAL	ProgressForm.cs	/^        private const int TIMER_INTERVAL = 50;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dtStartTime	ProgressForm.cs	/^        private DateTime m_dtStartTime;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dtLastUpdate	ProgressForm.cs	/^        private DateTime m_dtLastUpdate;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dtUpdateTime	ProgressForm.cs	/^        private DateTime m_dtUpdateTime;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dProgIncrement	ProgressForm.cs	/^        private double m_dProgIncrement;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dUpdatePercent	ProgressForm.cs	/^        private double m_dUpdatePercent;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dPercentComplete	ProgressForm.cs	/^        private double m_dPercentComplete;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_dProgStatus	ProgressForm.cs	/^        private double m_dProgStatus;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_iUpdateCount	ProgressForm.cs	/^        private int m_iUpdateCount;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_iTicker	ProgressForm.cs	/^        private int m_iTicker;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_FormLabel	ProgressForm.cs	/^        static private string m_FormLabel;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_Status	ProgressForm.cs	/^        static private string m_Status;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_iNumUpdates	ProgressForm.cs	/^        static private int m_iNumUpdates;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_pProg	ProgressForm.cs	/^        static private ProgressForm m_pProg;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_rProgress	ProgressForm.cs	/^        private Rectangle m_rProgress;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+m_tProgThread	ProgressForm.cs	/^        static private Thread m_tProgThread;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+B4ScriptEdit	ProgressForm.designer.cs	/^namespace B4ScriptEdit$/;"	n
+ProgressForm	ProgressForm.designer.cs	/^    partial class ProgressForm$/;"	c	namespace:B4ScriptEdit
+components	ProgressForm.designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+Dispose	ProgressForm.designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:B4ScriptEdit.ProgressForm
+InitializeComponent	ProgressForm.designer.cs	/^        private void InitializeComponent()$/;"	m	class:B4ScriptEdit.ProgressForm	file:
+panel1	ProgressForm.designer.cs	/^        private System.Windows.Forms.Panel panel1;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+ProgressTimer	ProgressForm.designer.cs	/^        private System.Windows.Forms.Timer ProgressTimer;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+label1	ProgressForm.designer.cs	/^        private System.Windows.Forms.Label label1;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+lblPercent	ProgressForm.designer.cs	/^        private System.Windows.Forms.Label lblPercent;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+label2	ProgressForm.designer.cs	/^        private System.Windows.Forms.Label label2;$/;"	f	class:B4ScriptEdit.ProgressForm	file:
+B4ScriptEdit	VICompress.cs	/^namespace B4ScriptEdit$/;"	n
+VICompress	VICompress.cs	/^    class VICompress$/;"	c	namespace:B4ScriptEdit
+m_FileStream	VICompress.cs	/^        private FileStream m_FileStream;$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_FileInfo	VICompress.cs	/^        private FileInfo m_FileInfo;$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_oFileInfo	VICompress.cs	/^        private FileInfo m_oFileInfo;$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_oFileStream	VICompress.cs	/^        private FileStream m_oFileStream;$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_DataSize	VICompress.cs	/^        private ulong m_DataSize;           \/\/ full size of file$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_ReadBuffer	VICompress.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_WriteBuffer	VICompress.cs	/^        private byte[] m_WriteBuffer;$/;"	f	class:B4ScriptEdit.VICompress	file:
+m_ReadPos	VICompress.cs	/^        private int m_ReadPos;                  $/;"	f	class:B4ScriptEdit.VICompress	file:
+m_WritePos	VICompress.cs	/^        private int m_WritePos = 0;         $/;"	f	class:B4ScriptEdit.VICompress	file:
+m_isOverriden	VICompress.cs	/^        public bool m_isOverriden = false;$/;"	f	class:B4ScriptEdit.VICompress
+binRead	VICompress.cs	/^        BinaryReader binRead;$/;"	f	class:B4ScriptEdit.VICompress	file:
+binWrite	VICompress.cs	/^        BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.VICompress	file:
+VICompress	VICompress.cs	/^        public VICompress()$/;"	m	class:B4ScriptEdit.VICompress
+Initialize	VICompress.cs	/^        public void Initialize(string inFilePath, string outFilePath)$/;"	m	class:B4ScriptEdit.VICompress
+Compress	VICompress.cs	/^        public bool Compress()$/;"	m	class:B4ScriptEdit.VICompress
+WriteHeader	VICompress.cs	/^        private void WriteHeader()$/;"	m	class:B4ScriptEdit.VICompress	file:
+WriteIteration	VICompress.cs	/^        private void WriteIteration()$/;"	m	class:B4ScriptEdit.VICompress	file:
+WriteEndcap	VICompress.cs	/^        private void WriteEndcap()$/;"	m	class:B4ScriptEdit.VICompress	file:
+WriteFile	VICompress.cs	/^        private void WriteFile()$/;"	m	class:B4ScriptEdit.VICompress	file:
+B4ScriptEdit	VIDecrypt.cs	/^namespace B4ScriptEdit$/;"	n
+VIDecrypt	VIDecrypt.cs	/^    class VIDecrypt$/;"	c	namespace:B4ScriptEdit
+m_width	VIDecrypt.cs	/^        public int m_width = 280;$/;"	f	class:B4ScriptEdit.VIDecrypt
+m_height	VIDecrypt.cs	/^        public int m_height = 120;$/;"	f	class:B4ScriptEdit.VIDecrypt
+m_ArraySize	VIDecrypt.cs	/^        public int m_ArraySize;$/;"	f	class:B4ScriptEdit.VIDecrypt
+m_FileStream	VIDecrypt.cs	/^        private FileStream m_FileStream;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_FileInfo	VIDecrypt.cs	/^        private FileInfo m_FileInfo;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_oFileInfo	VIDecrypt.cs	/^        private FileInfo m_oFileInfo;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_oFileStream	VIDecrypt.cs	/^        private FileStream m_oFileStream;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_DataSize	VIDecrypt.cs	/^        private ulong m_DataSize;           \/\/ full size of file$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_ImageSize	VIDecrypt.cs	/^        private ulong m_ImageSize;          \/\/ size of current image file being decompressed$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_ReadBuffer	VIDecrypt.cs	/^        private byte[] m_ReadBuffer;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_WriteBuffer	VIDecrypt.cs	/^        private byte[] m_WriteBuffer;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_OddByte	VIDecrypt.cs	/^        private ushort m_OddByte;             \/\/ = *****84$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_OddHolder	VIDecrypt.cs	/^        private ushort m_OddHolder;           \/\/ = eax after CheckVariables$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_Pos	VIDecrypt.cs	/^        private int m_Pos;                  \/\/ = ref to read buff$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_WritePos	VIDecrypt.cs	/^        private int m_WritePos = 0;         \/\/ = ref to write buff$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_Count	VIDecrypt.cs	/^        private int m_Count;                \/\/ = *****86$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_BytesRead	VIDecrypt.cs	/^        private int m_BytesRead;            \/\/ = *****88$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_TotalBytesWritten	VIDecrypt.cs	/^        private int m_TotalBytesWritten = 0;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_FileType	VIDecrypt.cs	/^        private ushort m_FileType;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_esi	VIDecrypt.cs	/^        private int m_esi = 0;              \/\/ = common holder for esi register$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_palettelocation	VIDecrypt.cs	/^        private uint m_palettelocation;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_Continue	VIDecrypt.cs	/^        private bool m_Continue = false;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_FirstImage	VIDecrypt.cs	/^        private bool m_FirstImage = true;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_custompalette	VIDecrypt.cs	/^        private bool m_custompalette = false;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+m_isOverriden	VIDecrypt.cs	/^        public bool m_isOverriden = false;$/;"	f	class:B4ScriptEdit.VIDecrypt
+binRead	VIDecrypt.cs	/^        BinaryReader binRead;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+binWrite	VIDecrypt.cs	/^        BinaryWriter binWrite;$/;"	f	class:B4ScriptEdit.VIDecrypt	file:
+VIDecrypt	VIDecrypt.cs	/^        public VIDecrypt()$/;"	m	class:B4ScriptEdit.VIDecrypt
+Initialize	VIDecrypt.cs	/^        public void Initialize(string inFilePath, string outFilePath)$/;"	m	class:B4ScriptEdit.VIDecrypt
+WriteFile	VIDecrypt.cs	/^        public void WriteFile()$/;"	m	class:B4ScriptEdit.VIDecrypt
+WriteBMP	VIDecrypt.cs	/^        public void WriteBMP()$/;"	m	class:B4ScriptEdit.VIDecrypt
+Decrypt	VIDecrypt.cs	/^        public bool Decrypt()$/;"	m	class:B4ScriptEdit.VIDecrypt
+PrepDecrypt	VIDecrypt.cs	/^        private void PrepDecrypt()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+RunDecrypt	VIDecrypt.cs	/^        private bool RunDecrypt()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+CheckVariables	VIDecrypt.cs	/^        private void CheckVariables()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+CalcOdds	VIDecrypt.cs	/^        private int CalcOdds(int iter)$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+LoopWrite1	VIDecrypt.cs	/^        private void LoopWrite1(int y)$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+WriteBMPHeader	VIDecrypt.cs	/^        private void WriteBMPHeader()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+WriteHeader	VIDecrypt.cs	/^        private void WriteHeader()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+WriteDIBHead	VIDecrypt.cs	/^        private void WriteDIBHead()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
+WriteColorPalette	VIDecrypt.cs	/^        private void WriteColorPalette()$/;"	m	class:B4ScriptEdit.VIDecrypt	file:
